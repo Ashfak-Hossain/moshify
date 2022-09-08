@@ -164,7 +164,7 @@ a {
   margin-bottom: 1rem;
 }
 
-@media screen and(min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .list--tick .list__item {
     padding-left: 0;
   }
@@ -382,7 +382,7 @@ a {
 }
 
 .plan .list__item {
-  margin: bottom 2rem;
+  margin-bottom: 2rem;
 }
 
 .plan--popular {
@@ -840,6 +840,7 @@ a {
 
 .footer {
   background: #232323;
+  padding-top: 10rem;
 }
 
 .footer a {
@@ -913,4 +914,10 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+  transform: translateY(6rem);
 }
