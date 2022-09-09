@@ -1,3 +1,5 @@
+@import "./normalize.css";
+
 :root {
   --border-radious: 30px;
   --color-accent: #ff3400;
